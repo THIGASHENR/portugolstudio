@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+inteiro number1
+inteiro number2
+inteiro soma
+
+escreva("HELLO WORLD")
+escreva("Digite numero 1: ")
+  leia(number1)
+escreva("Digite numero 2: ") 
+  leia(number2)
+escreva("A soma dos valores é: ",number1+number2)
+  
+  
+  }
+}
