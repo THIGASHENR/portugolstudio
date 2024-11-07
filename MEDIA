@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+  inteiro number1
+  inteiro number2
+  inteiro number3
+  inteiro media
+  escreva("Digite 1 Numero: ")
+  leia(number1)  
+  escreva("Digite 2 Numero: ")
+  leia(number2)  
+  escreva("Digite 3 Numero: ")
+  leia(number3)    
+  media = (number1 + number2 + number3) /3
+  escreva( "A media é:",media)
+  }
+}
