@@ -1,0 +1,79 @@
+programa {
+  funcao inicio() {
+   inteiro number1
+   inteiro number2
+   inteiro number3
+
+   escreva("Digite o 1 numero: ") 
+   leia(number1)
+   escreva("Digite o 2 numero: ")
+   leia(number2)
+   escreva("Digite o 3 numero: ")
+   leia(number3)
+
+se(number1 > number2)
+se(number2 > number3)
+{
+  escreva(number1)
+  escreva()
+  escreva(number2)
+  escreva()
+  escreva(number3)
+ 
+  }senao {
+ se(number1 > number3)
+ se(number3 > number2)
+  escreva(number1)
+  escreva()
+  escreva(number3)
+  escreva()
+  escreva(number2)
+  }
+
+ se(number2 > number1)
+ se(number1 > number3)
+ {
+  escreva(number2)
+  escreva()
+  escreva(number1)
+  escreva()
+  escreva(number3)
+
+ }senao {
+se(number2 > number3)
+se(number3 > number1)
+  escreva(number2)
+  escreva()
+  escreva(number3)
+  escreva()
+  escreva(number1)
+ }
+
+  se(number3 > number1)
+  se(number1 > number2)
+ {
+  escreva(number3)
+  escreva()
+  escreva(number1)
+  escreva()
+  escreva(number2)
+
+ }senao {
+ se(number3 > number2)
+ se(number2 > number1)
+  escreva(number3)
+  escreva()
+  escreva(number2)
+  escreva()
+  escreva(number1)
+ }
+
+ 
+
+  
+
+  
+  
+  }
+
+}
