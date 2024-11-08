@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+real area,raio,pi
+pi = 3.14
+//constante real: 3 14
+//formula area = pi * (raio * raio)
+
+escreva(" Digite o Raio do Cirulo: ")
+leia(raio)
+area = pi * (raio * raio)
+escreva("A area do cirulo é: ",area)
